@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Hind+Siliguri:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+/*
+  Color roles (60-30-10 rule)
+  60%  neutral  : cotton (page), turmeric (soft hover/surface), line (borders)
+  30%  secondary: ink (text, announcement bar, footer)
+  10%  accent   : gamcha-red (buttons and key actions only)
+  The rainbow appears only in the logo ring, as the brand signature.
+*/
+@theme {
+  /* 60% neutral */
+  --color-cotton: #fffdf7;
+  --color-turmeric: #fdf1d8;
+  --color-line: #eadfca;
+
+  /* 30% secondary */
+  --color-ink: #2a1d1a;
+
+  /* 10% accent */
+  --color-gamcha-red: #b91c2e;
+  --color-gamcha-red-dark: #8f1423;
+
+  /* Logo ring only */
+  --color-suto-1: #e11d2e;
+  --color-suto-2: #f97316;
+  --color-suto-3: #facc15;
+  --color-suto-4: #16a34a;
+  --color-suto-5: #0ea5e9;
+  --color-suto-6: #4338ca;
+  --color-suto-7: #9333ea;
+
+  --font-display: "Tiro Bangla", Georgia, serif;
+  --font-body: "Hind Siliguri", system-ui, sans-serif;
+}
+
+/* Rainbow ring used as the logo mark */
+@utility rainbow-wheel {
+  background: conic-gradient(
+    var(--color-suto-1),
+    var(--color-suto-2),
+    var(--color-suto-3),
+    var(--color-suto-4),
+    var(--color-suto-5),
+    var(--color-suto-6),
+    var(--color-suto-7),
+    var(--color-suto-1)
+  );
+}
