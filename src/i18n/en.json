@@ -38,5 +38,24 @@
   "p5": { "name": "Blue Plain Lungi", "note": "Cotton, 4 Cubits" },
   "p6": { "name": "Maroon Check Lungi", "note": "Cotton, 4 Cubits" },
   "p7": { "name": "Grey Stripe Lungi", "note": "Cotton, 4 Cubits" },
-  "p8": { "name": "Festive Black Lungi", "note": "Golden thread border" }
+  "p8": { "name": "Festive Black Lungi", "note": "Golden thread border" },
+  "backToShop": "← Back to Shop",
+  "quantity": "Quantity",
+  "inStock": "In Stock (Ready to Ship)",
+
+  "buyNow": "Buy Now",
+  "size": "Select Size",
+  "fabricCare": "Fabric & Care",
+  "deliveryReturn": "Delivery & Return",
+  "reviews": "Customer Reviews",
+  "share": "Share",
+  "copied": "Link Copied!",
+  "relatedProducts": "Related Products",
+  "washTip": "100% Pure Cotton. Gentle hand wash recommended for first use.",
+  "deliveryTip": "Inside Dhaka 1-2 days, Outside Dhaka 3-5 days. Cash on delivery available.",
+  "patternPreview": "Weave Pattern Preview",
+  "patternView": "Pattern View:",
+  "patternFine": "Fine",
+  "patternMedium": "Medium",
+  "patternZoom": "Large Zoom"
 }

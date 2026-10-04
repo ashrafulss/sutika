@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import ProductCard, { type Product } from "./cards/ProductCard";
+import ProductCard from "./products/ProductCard";
+import type { Product } from "../types/Product";
 
 const PRODUCTS: Product[] = [
   { id: 1, key: "p1", type: "gamcha", price: 280, a: "#b91c2e", b: "#fffdf7" },
